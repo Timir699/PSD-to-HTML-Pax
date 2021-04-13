@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700&display=swap');
+*{
+	margin: 0;	
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a {
+	margin: 0px;	
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+ul,li,ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	 color: #fff;
+}
+a:hover {
+	text-decoration: none;
+	 color: #fff;
+}
+/*Header CSS Starts*/
+.Header {
+	padding: 44px 0px 41px 0px;
+}
+.navbar {
+	padding: 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0px;
+	color: #5d6981;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 52px;
+	}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	border: 1px solid #5d6981;
+	padding: 17px 24px;
+	border-radius: 35px;
+	display: inline-block;
+}
+.navbar-expand-lg .navbar-nav .nav-iconf {
+	color: #3c5a99;
+	margin-left: 44px;
+	padding: 10px 15px;
+	border: 1px solid #3c5a99;
+	border-radius: 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-icont {
+	color: #28aae1;
+	margin-left: 15px;
+	padding: 11px 14px;
+	border: 1px solid #28aae1;
+	border-radius: 25px;
+}
+.navbar-expand-lg .navbar-nav .nav-iconf:hover {
+	background: #3c5a99;
+	color: #fff
+}
+.navbar-expand-lg .navbar-nav .nav-icont:hover {
+	background: #28aae1;
+	color: #fff
+}
+/*Header CSS Ends*/
+
+/*Banner CSS Starts*/
+.banner{
+	/*background: url(../img/bannr.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;*/
+	padding: 138px 0px 135px 0px;
+	border-top: 2px solid #e4e6ea;
+	background-image: linear-gradient( #fdfdfd, #e2e4e8, #ffffff);
+}
+
+.b_con h1{
+	font-size: 72px;
+	font-weight: 700;
+	color: #0149a1;
+}
+.b_con h5{
+	padding: 20px 0px 130px 0px;
+	font-size: 36px;
+	font-weight: 300;
+	color: #5d6981;
+}
+.b_con a{
+	font-weight: 700;
+	font-size: 18px;
+	padding: 22px 69px;
+	background: #ff2d55;
+	border-radius: 45px;
+	display: inline-block;
+	margin-bottom: 130px;
+}
+.banner_row {
+	/*background: url(../img/banner-img.png) no-repeat;
+	background-position: center;
+	background-size: cover;*/
+	padding-top: 70px;
+}
+.b_row h4{
+	font-size: 30px;
+	font-weight: 700;
+	color: #5d6981;
+	padding: 56px 0px 27px 0px;
+}
+.b_row p {
+	font-size: 18px;
+	font-weight: 300;
+	color: #8694a6;
+}
+
+
+/*Banner CSS Ends*/
+
+/*Creative CSS Starts*/
+.Creative {
+	background: url(../img/Creative.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 378px 0px 225px 0px;
+}
+.create a {
+	padding: 23px 69px;
+	background: #0149a1;
+	border-radius: 33px;
+	font-weight: 700;
+}
+
+
+/*Creative CSS Ends*/
+/*work CSS Starts*/
+.work {
+	background: #0149a1;
+	padding: 133px 0px 154px 0px;
+}
+
+
+.w_con h2 {
+	font-weight: 700;
+	font-size: 72px;
+	color: #fff;
+}
+
+.w_con h4 {
+	font-weight: 300;
+	font-size: 36px;
+	color: #5483bb;
+}
+.work_row_img {
+	padding: 140px 0px 0px 0px;
+}
+.work_row {
+	padding: 112px 0px 0px 0px;
+}
+.work_row p {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+}
+.para {
+	padding: 42px 0px 45px 0px;
+}
+.work_btn {
+	text-align: center;
+	padding-top: 112px;
+}
+.work_btn a {
+	padding: 23px 69px;
+	background: #fff;
+	border-radius: 30px;
+	color: #0149a1;
+}
+
+
+/*work CSS Ends*/
+
+/*team CSS Starts*/
+.team {
+	padding: 105px 0px 78px 0px;
+}
+.team .team_main {
+	/*left: 50%;
+	transform: translateX(-50%);*/
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+.tm-icon .fa{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/*display: inline-block;*/
+}
+.team_con p {
+	color: #8392a5;
+	font-size: 24px;
+	font-weight: 300;
+	font-style: italic;
+	padding: 50px 0px 40px 0px;
+}
+.team_con span {
+	color: #8392a5;
+	font-size: 18px;
+	font-weight: 300;
+}
+.team_con a {
+	color: #8392a5;
+ 	text-decoration: underline;
+}
+
+
+/*team CSS Ends*/
+
+/*our team CSS Ends*/
+.our {
+	background: #edeff1;
+	padding: 138px 0px 150px 0px;
+}
+
+.our_h h2 {
+	font-weight: 700;
+	font-size: 72px;
+	color: #0149a1;
+}
+.our_h h4 {
+	font-weight: 300;
+	font-size: 36px;
+	color: #7c8ca0;
+}
+.our_con {
+	padding: 100px 0px 115px 0px;
+}
+.our_con h6 {
+	font-size: 30px;
+	color: #5d6981;
+	font-weight: 700;
+	padding: 50px 0px 33px 0px;
+}
+.our_con p {
+	font-size: 18px;
+	color: #9da8b6;
+	font-weight: 300;
+}	
+.our_btn a {
+	font-weight: 700;
+	font-size: 18px;
+	padding: 22px 69px;
+	background:
+	#ff2d55;
+	border-radius: 45px;
+}
+
+
+
+
+
+/*our team CSS Ends*/
+
+/*footer CSS Starts*/
+.footer {
+	background: #0149a1;
+	padding: 90px 0px 130px 0px;
+}
+.f_con a {
+	font-size: 18px;
+}
+.f_con {
+	padding-bottom: 137px;
+}
+.footer p {
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+
+}
+.footer span {
+	font-weight: 700;
+}
+
+
+/*footer CSS Ends*/
+
+/*Responsive CSS Starts*/
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+	.navbar-expand-lg .navbar-nav .nav-link {
+		margin-left: 36px;
+	}
+	.b_row {
+		margin-top: 40px;
+	}
+
+
+ }
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+	.navbar-expand-lg .navbar-nav .nav-link {
+		margin-left: 0px;
+	}
+	.navbar-expand-lg .navbar-nav .nav-icont {
+		margin-left: 0px;
+	}
+	.banner {
+		padding: 90px 0px 95px 0px;
+	}
+	.banner h1 {
+		font-size: 52px;
+	}
+	.banner h5 {
+		padding: 10px 0px 40px 0px;
+		font-size: 26px;
+	}
+	.banner a {
+		margin-bottom: 60px;
+	}
+	.b_row h4 {
+    	font-size: 22px;
+   		padding: 20px 0px 12px 0px;
+	}
+	.b_row p {
+		font-size: 14px;
+	}
+	.Creative {
+		padding: 200px 0px 125px 0px;
+	}
+	.w_con h2 {
+		font-size: 52px;
+	}
+	.w_con h4 {
+		font-size: 20px;
+	}
+	.work {
+    	padding: 50px 0px 80px 0px;
+	}
+	.work_row_img {
+    	padding: 70px 0px 0px 0px;
+	}
+	.work_row {
+    	padding: 70px 0px 0px 0px;
+	}
+	.para {
+    	padding: 15px 0px 25px 0px;
+	}
+	.work_row p {
+		font-size: 12px;
+	}
+	.work_btn {
+    	padding-top: 50px;
+	}
+	.work_btn a {
+   		padding: 15px 40px;
+	}
+	.team {
+    	padding: 55px 0px 28px 0px;
+	} 
+	.our {
+		padding: 50px 0px 50px 0px;
+	}
+	.our_h h2 {
+		font-size: 50px;
+	}
+	.our_h h4 {
+		font-size: 32px;
+	}
+	.our_con h6 {
+    	font-size: 22px;
+    	padding: 20px 0px 13px 0px;
+	}
+	.our_con p {
+		font-size: 13px;
+	}
+	.our_con {
+    	padding: 40px 0px 60px 0px;
+	}
+	.our_btn a {
+    	font-size: 16px;
+    	padding: 16px 50px;
+	}
+	.f_con {
+    	padding-bottom: 50px;
+	}
+	.f_con a {
+    	font-size: 12px;
+	} 
+	.footer {
+		padding: 40px 0px 50px 0px;
+	}
+	.footer p {
+		font-size: 13px;
+	}
+
+
+
+ }
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { ... }
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+/*// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width*/
